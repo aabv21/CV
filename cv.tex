@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Andr\'es} % Your first name
+\familyname{Buelvas} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{La Candelaria}{Caracas, Venezuela.}
+\mobile{+58 4169301201 +58 4241204323}
+\email{andres.buelvas.2102@gmail.com}
+\homepage{github.com/aabv21} {https://github.com/aabv21} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{21 de febrero de 1996}
+\photo[80pt][0.4pt]{andres2.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\section{Sobre m\'i}
+    Estudiante de quinto a\~no, d\'ecimo tercer trimestre de la carrera de Ingenier\'ia de la Computaci\'on en la Universidad Sim\'on Bol\'ivar. Apasionado en el desarrollo de sistemas y softwares oriendados al back-end, en la b\'usqueda de nuevas tecnolog\'ias emergentes y seguridad cibern\'etica. Soy una persona de aprendizaje r\'apido, facilidad para trabajar en equipo, responsable y amigable.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Educaci\'on}
+
+\cventry{2008 -- 2013}{Unidad Educativa Tirso de Molina}{Caracas}{Venezuela}{\textit{Bachillerato en Ciencias}}{}
+
+\cventry{2013 -- Actualidad}{Universidad Sim\'on Bol\'ivar}{Caracas}{Venezuela}{\textit{Ingenier\'ia de la Computaci\'on}}{}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitemwithcomment{Espa\~nol}{Idioma de Nacimiento}{}
+\cvitemwithcomment{Ingl\'es}{En aprendizaje}{Escritura y Lectura: nivel intermedio. Oral: nivel b\'asico.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Certificaciones y actividades extra-curriculares}
+
+\cventry{2008 -- 2012}{Certificado de Curso de Ingl\'es}{\textsc{Loscher Ebbinghaus Idiomas}}{Caracas}{Venezuela}{}
+
+\cventry{2015 -- 2016}{Certificado de Operador de Office Ambiente Windows}{\textsc{Academia Americana}}{Caracas}{Venezuela}{}
+
+\cventry{2016}{Certificado de Asistencia a las IX Jornadas Interuniversitarias de Ciencias de la Computaci\'on (Joincic)}{\textsc{Universidad Cat\'olica Andr\'es Bello (UCAB)}}{Caracas}{Venezuela}{}
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades t\'ecnicas}
+
+\cvitem[0.5cm]{Lenguajes de Programaci\'on}{Conocimientos competentes en: \textsc{Python, C++, Java, Groovy, Ruby, MATLAB y R.} \newline Conocimientos b\'asicos en: \textsc{C, Assembler, JavaScript, Prolog y Haskell.}}
+\cvitem{Desarrollo Web}{Conocimientos competentes en: \textsc{Web2py, Django y HTML5.} \newline Conocimientos b\'asicos en: \textsc{CSS3, Bootstrap 3 y 4, Ajax y Flask.}}
+\cvitem{Tecnolog\'ias Miscel\'aneas}{Conocimientos competentes en: \textsc{LaTeX, MarkDown, Github, BitBucket, Sphinx, XML-RPC, Ubuntu/Debian y Windows.} \newline Conocimientos b\'asicos en: \textsc{PostgreSQL, Heroku, Travis-CI y REST.}}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Proyectos}
+
+\cventry{2017 -- 2018}{\href{http://syspio.dex.usb.ve/}{SisPIO}}{}{}{}{Sistema de Gesti\'on para la Coordinaci\'on de Igualdad de Oportunidades de la Universidad Sim\'on Bol\'ivar. Este sistema es utilizado como uso administrativo para el control y seguimiento de los estudiantes y actividades del programa y como uso educativo por los estudiantes para usos acad\'emicos internos. Desarrollado con el framework Web2py y haciendo uso del estilo arquitect\'onico MVC.}
+
+\cventry{2018}{\href{https://eia-ci4712.herokuapp.com/users/auth/login/?next=/}{Sistema EIA}}{}{}{}{El Sistema de Estudio de Impacto Ambiental es utilizado para identificar los impactos ambientales, negativos y positivos con respecto a un proyecto de inter\'es general. Desarrollado con el framework Django y haciendo uso de tecnolog\'ias como Heroku, Selenium y Travis-CI, y la metodolog\'ia SCRUM con despliegue continuo e integrado.}
+
+\cventry{2018 -- Actualidad}{\href{http://mece.usb.ve}{Sistema MECE}}{}{}{}{Sistema de Mecanismo para el Empoderamiento de Competencias Educativas de la Universidad Sim\'on Bol\'ivar. Este sistema es utilizado para ayudar, educar, reforzar y orientar a cada uno de los bachilleres que desean y aspiran estudiar en la USB. Desarrollado con el framework Web2py.}
+
+\cventry{2019 -- Actualidad }{Sistema de Gesti\'on de Almacenes}{}{}{}{Este sistema es utilizado como una base de datos de almacenes en tiempo real, capaz de gestionar grandes inventarios de una organizaci\'on. \'Este se puede usar para controlar el inventario de una sola tienda o para administrar la distribuci\'on del stock entre varias tiendas de una franquicia. Desarrollado con el framework Django y haciendo uso de tecnolog\'ias como Heroku y Travis-CI, y la metodolog\'ia SCRUM con SOA.}
+
+\section{Experiencia Laboral}
+
+\cventry{2018}{\href{http://cio.dex.usb.ve/}{Coodinaci\'on de Igualdad de Oportunidades}}{\textsc{Universidad Simon Bol\'ivar}}{Caracas}{Venezuela}{Preparador de Apoyo en el dise\~no, implementaci\'on y mantenimiento back-end del Sistema del Programa de Igualdad de Oportunidades (SisPIO).}
+
+\cventry{2018 -- 2019}{\href{http://www.latinux.org/}{Latinux/CIDITEL-VE}}{\textsc{Universidad Sim\'on Bol\'ivar}}{Caracas}{Venezuela}{Contratado para el dise\~no, implemetentaci\'on y mantemiento back-end y front-end de sistemas de uso interno y el sistema MECE.}
+
+\end{document}
+
+
+
